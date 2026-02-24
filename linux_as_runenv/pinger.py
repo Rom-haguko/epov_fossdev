@@ -5,7 +5,7 @@ url_template = "https://simurg.space/gen_file?data=obs&date={date}"
 
 day_offset = 1
 while True:
-    yesterday =  datetime.now() - timedelta(days=1)
+    yesterday =  datetime.now() - timedelta(days=day_offset)
 
     url = url_template.format(date= yesterday.strftime("%Y-%m-%d"))
 
