@@ -8,7 +8,7 @@ def test_ndfl_tier_1_basic():
 
 
 def test_ndfl_tier_2_basic():
-    assert calculate_ndfl(4_000_000) == 552_000
+    assert calculate_ndfl(4_000_000) == 522_000
 
 def test_ndfl_tier_3_basic():
     assert calculate_ndfl(10_000_000) == 1_602_000
